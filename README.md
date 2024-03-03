@@ -44,6 +44,24 @@ Keep "Configure stack options" default and click next
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/4fa40b3f-3612-4c82-a0bd-90a43e80e8a0)
 
+Keep "Review and create" default and click submit. This is trigger Cloudformation to run and creat aws resources
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/98e06251-01db-4cc7-af76-00f2c9d0ac70)
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/9e2da0ec-d839-4c80-b2dc-3e6f5c445d59)
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/d496b2fb-2c06-4d9f-a3cb-86f7947899f6)
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/1807a6cb-e2b0-4ec8-a2da-436fd011e7d0)
+
+
+
+
+
+
+
+
+
 
 
 
