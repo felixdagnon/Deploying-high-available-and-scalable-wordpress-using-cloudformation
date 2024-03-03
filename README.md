@@ -29,7 +29,7 @@ We can do all this by ourself or we can use Elastic Beanstalk.
 
 Elastic Beanstalk takes care of this auto scaling, managing the web servers, etc..
 
-We need to have some way to store all information is in the page, links, etc..
+We need to have some way to store all information in the page, links, etc..
 
 So that's why this database is used.
 
