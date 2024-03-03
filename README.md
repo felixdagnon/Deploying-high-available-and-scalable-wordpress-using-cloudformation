@@ -5,20 +5,55 @@
 
 Let see this diagram.
 
-Here first, I have to launch a database instance in IDs,  download the WordPress from the Internet 
-
-and then you launch an elastic beanstalk, environment, configure security group, etc..
-
 ![image](https://github.com/felixdagnon/Implement-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/56f02578-57d4-4bc3-8b38-7f1fad471b8b)
 
+WordPress is a web server running on EC2.
 
-I already know the concepts.
+So to run the web server, we need to have some sort of virtual machine. So those are EC2.
 
-Instead, I want to  show how to provision this without elastic beanstalk using infrastructure as code.
+Now we have two options.
 
-This S3 bucket is created when We provisioning elastic beanstalk application.
+One is we manage the EC2 ourself. What do I mean by that?
+
+So we can spin up to EC2 in two different availability zones. Because this makes the application highly available.
+
+We also need to make sure it's scalable. So we need to create a auto scaling group and attach it to these EC2.
+
+And finally, you need to expose these EC2 because there are multiple EC2, we need to have a way to distribute traffic as well as 
+
+expose this web server application using a URL. So we need to create an elastic load balancer.
+
+We'll have the URL which will be expose to the internet and users can access it.
+
+We need to expose this url through load balancer as well as we secured it using https SSL certificates.
+
+We can do all this by ourself or we can use Elastic Beanstalk.
+
+Elastic Beanstalk takes care of this auto scaling, managing the web servers, etc..
+
+We need to have some way to store all information is in the page, links, etc..
+
+So that's why this database is used.
+
+So this is Amazon RDS MySQL database. why there are two instances? because we want to make it highly available.
+
+This is a multi A-Z instance of the database.
+
+The primary instance is running in availability zone A The multi AZ replicate in availability zone B 
+
+So even if AZ A goes down,  the standby database will become the primary and it will fail over.
+
+And because we have a load balancer, load balancer will do health checks.
+
+So if this whole availability zone goes down,  the traffic will be shifted to the availability zone B.
+
+Now what is this S3 bucket? This S3 bucket is created when you provisioning elastic beanstalk application.
 
 It creates S3 bucket to save our code, log files, etc. If I'm not using elastic beanstalk, then I do not need this S3 bucket.
+
+
+I want to show alteranatice concepts. Instead, I want to show how to provision this without elastic beanstalk using infrastructure as code.
+
 
 ## Cloudformation
 
@@ -136,7 +171,9 @@ And remember that the URL is the URL of the application load balancer that is fo
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/21541606-6a2d-495b-977f-dca67acbfed5)
 
+## Conclusion
 
+So with that being said, there are two ways to do this.
 By this point, this url is not secure. We need to hook-up a custom domain to our application load balancer.
 
 
