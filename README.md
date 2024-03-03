@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Let see the architecture
+This is a diagram that I have used for the lab.
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/244f9d24-321b-4cc4-844c-6e513cf5c4ed)
 
