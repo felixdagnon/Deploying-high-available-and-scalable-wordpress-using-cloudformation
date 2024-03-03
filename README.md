@@ -96,6 +96,20 @@ Click log in.
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/35886aa6-494e-4d52-9bf5-971008cbd94c)
 
+Here is the wordpress dashboard
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/dfefb223-8d03-4cd1-a9f6-70be4f670925)
+
+
+By default, the admin console will open up and from here you can add a new page.
+
+You can add content to your page, and then you can publish the page.
+
+I am not WordPress expert, but let me create my resume in WordPress?
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/ec08f9f2-e837-4da6-9042-5478b1b1f699)
+
+
 
 
 
