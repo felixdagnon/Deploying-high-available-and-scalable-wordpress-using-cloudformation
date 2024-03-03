@@ -35,7 +35,7 @@ I give it name "wordpresstest" and select parameters and click next
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/b27cbd00-20ec-4f54-9375-1f7804a5074c)
 
-![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/cd76ce79-4f08-4e26-828f-97845b233577)
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/2ae03dbc-da9c-4ad0-b53e-1d77f1432e7b)
 
 
 Keep "Configure stack options" default and click next
