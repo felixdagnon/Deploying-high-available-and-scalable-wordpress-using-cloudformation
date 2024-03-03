@@ -7,9 +7,7 @@ Let see this diagram.
 
 ![image](https://github.com/felixdagnon/Implement-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/56f02578-57d4-4bc3-8b38-7f1fad471b8b)
 
-WordPress is a web server running on EC2.
-
-So to run the web server, we need to have some sort of virtual machine. So those are EC2.
+WordPress is a web server running on EC2. 
 
 Now we have two options.
 
