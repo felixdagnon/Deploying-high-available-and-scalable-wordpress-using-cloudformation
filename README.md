@@ -44,7 +44,7 @@ Keep "Configure stack options" default and click next
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/4fa40b3f-3612-4c82-a0bd-90a43e80e8a0)
 
-Keep "Review and create" default and click submit. This is trigger Cloudformation to run and creat aws resources
+Keep "Review and create" default and click submit. This is trigger Cloudformation to run and create aws resources
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/98e06251-01db-4cc7-af76-00f2c9d0ac70)
 
@@ -53,6 +53,28 @@ Keep "Review and create" default and click submit. This is trigger Cloudformatio
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/d496b2fb-2c06-4d9f-a3cb-86f7947899f6)
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/1807a6cb-e2b0-4ec8-a2da-436fd011e7d0)
+
+Creating Cloudformation stack in progress.It's running and creating aws resources.it created the database instance, launch config, etc..
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/756eb840-99a9-4636-9914-4422c13415a3)
+
+All resouces are completed
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/df2677c9-f25b-4afa-b55b-d6b095ebd4d4)
+
+So let's go check out the RDS database as well as the EC2 and then we are going to access this web server.
+
+if I go to EC2, we should see an instance running. This is the instance that's running t2micro.
+
+And if I go to the tags so it shows the tags and, and you know, this is created using our cloudformation stack "wordpresstest".
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/3f151e87-cbd4-4b61-933d-e7013ad1ebe3)
+
+
+
+
+
+
 
 
 
