@@ -124,7 +124,7 @@ And remember that the URL is the URL of the application load balancer that is fo
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/21541606-6a2d-495b-977f-dca67acbfed5)
 
 
-By this point, this url is not secure. We need to hook up a custom domain to our application load balancer.
+By this point, this url is not secure. We need to hook-up a custom domain to our application load balancer.
 
 
 
