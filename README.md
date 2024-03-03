@@ -111,6 +111,22 @@ I am not WordPress expert, but let me create my resume in WordPress!
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/44b8432f-3959-4d82-803e-7e03956354e3)
 
+So let's publish this. Page published.
+
+
+Let's click View Page.
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/3b991b90-d64d-4b21-a9df-09f258d4fb80)
+
+So this is our sample page. So you could see Felix DAGNON here. You can click "Felix DAGNON Bio" and it's going to open this page.
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/21541606-6a2d-495b-977f-dca67acbfed5)
+
+And remember that the URL is the URL of the application load balancer that is forwarding the traffic to the EC2 running the WordPress.
+
+
+By this point, you already know how to hook up a custom domain to your application load balancer.
+
 
 
 
