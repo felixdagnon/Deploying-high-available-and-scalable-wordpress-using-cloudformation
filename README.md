@@ -31,19 +31,17 @@ Elastic Beanstalk takes care of this auto scaling, managing the web servers, etc
 
 We need to have some way to store all information in the page, links, etc..
 
-So that's why this database is used.
+So that's why this Amazon RDS MySQL database is used.
 
-So this is Amazon RDS MySQL database. why there are two instances? because we want to make it highly available.
-
-This is a multi A-Z instance of the database.
+Why there are two instances? because we want to make it highly available. This is a multi A-Z instance of the database.
 
 The primary instance is running in availability zone A The multi AZ replicate in availability zone B 
 
 So even if AZ A goes down,  the standby database will become the primary and it will fail over.
 
-And because we have a load balancer, load balancer will do health checks.
+And because we have load balancer will do health check, if the whole availability zone goes down,
 
-So if this whole availability zone goes down,  the traffic will be shifted to the availability zone B.
+the traffic will be shifted to the availability zone B.
 
 Now what is this S3 bucket? This S3 bucket is created when you provisioning elastic beanstalk application.
 
