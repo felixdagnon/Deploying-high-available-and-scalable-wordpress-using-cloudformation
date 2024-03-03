@@ -92,6 +92,13 @@ I'm just going to use the admin and Password.
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/9207357d-16ec-440e-93ce-e5041c43e9a5)
 
+Click log in
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/35886aa6-494e-4d52-9bf5-971008cbd94c)
+
+
+
+
 
 
 
