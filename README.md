@@ -5,15 +5,18 @@
 
 Let see this diagram.
 
-So here first, I have to launch a database instance in IDs,  download the WordPress from the Internet 
+Here first, I have to launch a database instance in IDs,  download the WordPress from the Internet 
 
 and then you launch an elastic beanstalk, environment, configure security group, etc..
 
 ![image](https://github.com/felixdagnon/Implement-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/56f02578-57d4-4bc3-8b38-7f1fad471b8b)
 
-I already know the concepts.Instead, I want to  show how to provision this without elastic beanstalk using infrastructure as code.
 
-This S3 bucket is created when you provisioning elastic beanstalk application.
+I already know the concepts.
+
+Instead, I want to  show how to provision this without elastic beanstalk using infrastructure as code.
+
+This S3 bucket is created when We provisioning elastic beanstalk application.
 
 It creates S3 bucket to save our code, log files, etc. If I'm not using elastic beanstalk, then I do not need this S3 bucket.
 
