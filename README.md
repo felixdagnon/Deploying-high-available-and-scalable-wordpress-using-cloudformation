@@ -31,6 +31,26 @@ Click next
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/5c01c445-7f48-45ab-b108-cd4ed4d62d68)
 
+I give it name "wordpresstest" and select parameters and click next
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/b27cbd00-20ec-4f54-9375-1f7804a5074c)
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/cd76ce79-4f08-4e26-828f-97845b233577)
+
+
+Keep "Configure stack options" default and click next
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/49495679-04e7-4af3-983a-89669913b4c6)
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/4fa40b3f-3612-4c82-a0bd-90a43e80e8a0)
+
+
+
+
+
+
+
+
 
 
 
