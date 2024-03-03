@@ -101,13 +101,16 @@ Here is the wordpress dashboard
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/dfefb223-8d03-4cd1-a9f6-70be4f670925)
 
 
-By default, the admin console will open up and from here you can add a new page.
+By default, the admin console will open up and from here you can add a new page. We can add content to our page, and then we can publish the page.
 
-You can add content to your page, and then you can publish the page.
+Add a neww page
 
-I am not WordPress expert, but let me create my resume in WordPress?
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/06411c7a-b388-4aae-8f1b-c844106fa965)
 
-![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/ec08f9f2-e837-4da6-9042-5478b1b1f699)
+I am not WordPress expert, but let me create my resume in WordPress!
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/44b8432f-3959-4d82-803e-7e03956354e3)
+
 
 
 
