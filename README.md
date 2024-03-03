@@ -171,8 +171,8 @@ And remember that the URL is the URL of the application load balancer that is fo
 
 ## Conclusion
 
-So with that being said, there are two ways to do this.
-By this point, this url is not secure. We need to hook-up a custom domain to our application load balancer.
+So with that being said, there are two ways to implemente our WordPress. Elastic Beanstalk and Infrasture as code.
+
 
 
 
