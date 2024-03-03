@@ -113,19 +113,18 @@ I am not WordPress expert, but let me create my resume in WordPress!
 
 So let's publish this. Page published.
 
-
 Let's click View Page.
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/3b991b90-d64d-4b21-a9df-09f258d4fb80)
 
 So this is our sample page. So you could see Felix DAGNON here. You can click "Felix DAGNON Bio" and it's going to open this page.
 
-![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/21541606-6a2d-495b-977f-dca67acbfed5)
-
 And remember that the URL is the URL of the application load balancer that is forwarding the traffic to the EC2 running the WordPress.
 
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/21541606-6a2d-495b-977f-dca67acbfed5)
 
-By this point, you already know how to hook up a custom domain to your application load balancer.
+
+By this point, this url is not secure. We need to hook up a custom domain to our application load balancer.
 
 
 
