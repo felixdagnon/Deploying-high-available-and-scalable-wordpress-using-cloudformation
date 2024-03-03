@@ -19,11 +19,14 @@ Chose "use a sample of template"
 
 Select WordPress Blog " The template installs high-available scalable WordPress deployemnt using using a multi-az Amazon RDS Database instance for storage"
 
-![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/78988801-6c44-4061-87fa-1cca652d4f05)
-
 Click "View in Designer"
 
-![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/9b7cd729-d65d-454f-9c2c-2797a701a6d4)
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/78988801-6c44-4061-87fa-1cca652d4f05)
+
+Then click create stack icon
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/35810e82-bcdf-413e-8b50-bf69ca8a7f91)
+
 
 
 
