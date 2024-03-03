@@ -7,8 +7,6 @@ Let see the architecture
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/244f9d24-321b-4cc4-844c-6e513cf5c4ed)
 
-
-
 ## Cloudformation
 
 Connect in Cloudformation console to create stack
@@ -26,6 +24,14 @@ Click "View in Designer"
 Then click create stack icon
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/35810e82-bcdf-413e-8b50-bf69ca8a7f91)
+
+The template is ready and Amazon S3 URL is provided an Amazon S3 URL to my template.
+
+Click next
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/5c01c445-7f48-45ab-b108-cd4ed4d62d68)
+
+
 
 
 
