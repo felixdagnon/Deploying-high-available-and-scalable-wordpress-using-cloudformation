@@ -88,13 +88,18 @@ So this is the site title. Sample WordPress.
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/60cd1d9d-cd7d-4b13-b88b-610f5bf951ab)
 
-I'm just going to use the admin and Password.
+Click install WordPress
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/9207357d-16ec-440e-93ce-e5041c43e9a5)
 
 Click log in
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/35886aa6-494e-4d52-9bf5-971008cbd94c)
+
+I'm just going to use the admin and Password.
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/9a94ee6c-c778-409e-ac4d-8df87adfda45)
+
 
 
 
