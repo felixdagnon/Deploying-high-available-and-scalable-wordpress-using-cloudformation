@@ -78,6 +78,25 @@ So it's running in two availability zone one is us-east-1f, two D And then under
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/8444219d-38ed-483b-958f-3d9fef4cab20)
 
+So now let's go back to cloudformation and access our WordPress server cloud formation, go to outputs.
+
+This is the URL, so let's click this"http://wordpr-Appli-5KWqbkyULNi8-199131677.us-east-1.elb.amazonaws.com/wordpres"
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/8cedb5df-8ec6-4e07-9f52-67bbc66ce177)
+
+So this is the site title. Sample WordPress. 
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/60cd1d9d-cd7d-4b13-b88b-610f5bf951ab)
+
+I'm just going to use the admin and Password.
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/9207357d-16ec-440e-93ce-e5041c43e9a5)
+
+
+
+
+
+
 
 
 
