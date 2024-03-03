@@ -70,6 +70,24 @@ And if I go to the tags so it shows the tags and, and you know, this is created 
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/3f151e87-cbd4-4b61-933d-e7013ad1ebe3)
 
+Let's check MySQL RDS. It's running. So it shows the CPU status is available.
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/0c09f8dd-7e95-432c-8985-899dbac50323)
+
+So if I come under configuration, this shows that it is multi AZ and the secondary zone is us-east-1c
+
+![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/838d52a1-4151-4926-b6e2-c9b1c04c8288)
+
+So it's running in two availability zone one is 2di believe yes, two D And then under configuration
+
+it shows that another one is running in us to be.
+
+
+
+
+
+
+
 
 
 
