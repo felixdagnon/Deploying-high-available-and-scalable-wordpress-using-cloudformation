@@ -1,4 +1,4 @@
-# Deploying-high-available-and-scalable-wordpress-using-cloudformation
+#  Implement-high-available-and-scalable-wordpress-using-cloudformation with EC2, Application Load Balancing, MySQL RDS
 Deploying high available and scalable wordpress using cloudformation, MySQL RDS
 
 ## Introduction
