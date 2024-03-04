@@ -17,9 +17,7 @@ So we can spin up to EC2 in two different availability zones. Because this makes
 
 We also need to make sure it's scalable. So we need to create a auto scaling group and attach it to these EC2.
 
-And finally, we need to expose these EC2 because there are multiple EC2, we need to have a way to distribute traffic as well as 
-
-expose this web server application using a URL. So we need to create an elastic load balancer.
+And finally, we need to expose these EC2 because there are multiple EC2, we need to have a way to distribute traffic as well as expose this web server application using a URL. So we need to create an elastic load balancer.
 
 We'll have the URL which will be expose to the internet and users can access it.
 
@@ -39,16 +37,14 @@ The primary instance is running in availability zone A The multi AZ replicate in
 
 So even if AZ A goes down,  the standby database will become the primary and it will fail over.
 
-And because we have load balancer will do health check, if the whole availability zone goes down,
-
-the traffic will be shifted to the availability zone B.
+And because we have load balancer will do health check, if the whole availability zone goes down, the traffic will be shifted to the availability zone B.
 
 Now what is this S3 bucket? This S3 bucket is created when you provisioning elastic beanstalk application.
 
 It creates S3 bucket to save our code, log files, etc. If I'm not using elastic beanstalk, then I do not need this S3 bucket.
 
 
-I want to show alteranatice concepts. Instead, I want to show how to provision this without elastic beanstalk using infrastructure as code.
+I want to show alteranative concepts. Instead, I want to show how to provision this without elastic beanstalk using infrastructure as code.
 
 
 ## 2-Cloudformation
