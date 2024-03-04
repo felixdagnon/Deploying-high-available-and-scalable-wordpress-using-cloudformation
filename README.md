@@ -1,7 +1,7 @@
   Implement-high-available-and-scalable-wordpress-using-cloudformation with EC2, Application Load Balancing, MySQL RDS
   
 
-## Introduction
+## 1-Introduction
 
 Let see this diagram.
 
@@ -51,7 +51,7 @@ It creates S3 bucket to save our code, log files, etc. If I'm not using elastic 
 I want to show alteranatice concepts. Instead, I want to show how to provision this without elastic beanstalk using infrastructure as code.
 
 
-## Cloudformation
+## 2-Cloudformation
 
 Connect in Cloudformation console to create stack
 
@@ -167,7 +167,7 @@ And remember that the URL is the URL of the application load balancer that is fo
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/21541606-6a2d-495b-977f-dca67acbfed5)
 
-## Conclusion
+## 3-Conclusion
 
 So with that being said, there are two ways to implemente our WordPress. Elastic Beanstalk and Infrasture as code.
 
