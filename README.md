@@ -33,9 +33,7 @@ The primary instance is running in availability zone A The multi AZ replicate in
 
 So even if AZ A goes down,  the standby database will become the primary and it will fail over.
 
-The load balancer performs health checks on all registered instances, if the whole availability zone goes down,
-
-the traffic will be shifted to the availability zone B.
+The load balancer performs health checks on all registered instances, if the whole availability zone goes down, the traffic will be shifted to the availability zone B.
 
 This S3 bucket is created when we provisioning elastic beanstalk application.
 
