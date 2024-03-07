@@ -37,13 +37,13 @@ The primary instance is running in availability zone A The multi AZ replicate in
 
 So even if AZ A goes down,  the standby database will become the primary and it will fail over.
 
-he load balancer performs health checks on all registered instances, if the whole availability zone goes down,
+The load balancer performs health checks on all registered instances, if the whole availability zone goes down,
 
 the traffic will be shifted to the availability zone B.
 
 This S3 bucket is created when we provisioning elastic beanstalk application.
 
-It creates S3 bucket to save our code, log files, etc. If I'm not using elastic beanstalk, then I do not need this S3 bucket.
+It's used to save our code, log files, etc. If I'm not using elastic beanstalk, then I do not need this S3 bucket.
 
 
 For this demo, I want to show alteranative concepts. I want to show how to provision this without elastic beanstalk using infrastructure as code.
