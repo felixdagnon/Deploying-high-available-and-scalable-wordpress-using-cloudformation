@@ -9,42 +9,44 @@ Let see this diagram.
 
 WordPress is a web server running on EC2. 
 
-Now we have two options.
+We have two options to implement this architecture.
 
-One is we manage the EC2 ourself. What do I mean by that?
+First option, is we manage the EC2 ourself. What do I mean by that?
 
-So we can spin up to EC2 in two different availability zones. Because this makes the application highly available.
+To make the application highly available we can spin up these EC2 in two different availability zones.
 
-We also need to make sure it's scalable. So we need to create a auto scaling group and attach it to these EC2.
+We also need to make sure it's scalable. For that we need to create a auto scaling group and attach it to these EC2.
 
-And finally, we need to expose these EC2 because there are multiple EC2, we need to have a way to distribute traffic as well as expose this web server application using a URL. So we need to create an elastic load balancer.
+And finally, we need to expose these EC2 because there are multiple EC2, we need to have a way to distribute traffic as
 
-We'll have the URL which will be expose to the internet and users can access it.
+well as expose this web server application using a URL. We need to create an elastic load balancer 
 
-We need to expose this url through load balancer as well as we secured it using https SSL certificates.
+and expose URL to the internet so  users can access it.
 
-We can do all this by ourself or we can use Elastic Beanstalk.
+This url exposed through load balancer need to be secured using https SSL certificates.
 
-Elastic Beanstalk takes care of this auto scaling, managing the web servers, etc..
+For the second option, we can use Elastic Beanstalk.
 
-We need to have some way to store all information in the page, links, etc..
+Elastic Beanstalk takes care of auto scaling, managing the web servers, etc..
 
-So that's why this Amazon RDS MySQL database is used.
+Amazon RDS MySQL database is used to store all information in the page, links, etc..
 
-Why there are two instances? because we want to make it highly available. This is a multi A-Z instance of the database.
+There are two instances for database because we want to make it highly available. This is a multi A-Z instance of the database.
 
-The primary instance is running in availability zone A The multi AZ replicate in availability zone B 
+The primary instance is running in availability zone A The multi AZ replicate in availability zone B.
 
 So even if AZ A goes down,  the standby database will become the primary and it will fail over.
 
-And because we have load balancer will do health check, if the whole availability zone goes down, the traffic will be shifted to the availability zone B.
+he load balancer performs health checks on all registered instances, if the whole availability zone goes down,
 
-Now what is this S3 bucket? This S3 bucket is created when you provisioning elastic beanstalk application.
+the traffic will be shifted to the availability zone B.
+
+This S3 bucket is created when we provisioning elastic beanstalk application.
 
 It creates S3 bucket to save our code, log files, etc. If I'm not using elastic beanstalk, then I do not need this S3 bucket.
 
 
-I want to show alteranative concepts. Instead, I want to show how to provision this without elastic beanstalk using infrastructure as code.
+For this demo, I want to show alteranative concepts. I want to show how to provision this without elastic beanstalk using infrastructure as code.
 
 
 ## 2-Cloudformation
