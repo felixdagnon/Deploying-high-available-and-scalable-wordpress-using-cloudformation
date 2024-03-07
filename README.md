@@ -44,9 +44,9 @@ This S3 bucket is created when we provisioning elastic beanstalk application.
 It's used to save our code, log files, etc. If I'm not using elastic beanstalk, then I do not need this S3 bucket.
 
 
-For this demo, I want to show alteranative concept. I want to show how to provision this without elastic beanstalk using infrastructure 
+For this demo, I want to show alteranative concept. I want to show how to provision this without elastic beanstalk using 
 
-as code.
+infrastructure as code.
 
 
 ## 2-Cloudformation
