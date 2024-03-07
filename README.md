@@ -100,11 +100,11 @@ All resouces are completed
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/df2677c9-f25b-4afa-b55b-d6b095ebd4d4)
 
-So let's go check out the RDS database as well as the EC2 and then we are going to access this web server.
+Let's check out the RDS database as well as the EC2 and then we are going to access this web server.
 
-if I go to EC2, we should see an instance running. This is the instance that's running t2micro.
+We should see an instance running. This is the instance that's running t2micro.
 
-And if I go to the tags so it shows the tags and, and you know, this is created using our cloudformation stack "wordpresstest".
+And if I go to the tags so it shows is created using our cloudformation stack "wordpresstest".
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/3f151e87-cbd4-4b61-933d-e7013ad1ebe3)
 
@@ -112,17 +112,17 @@ Let's check MySQL RDS. It's running. So it shows the CPU status is available.
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/0c09f8dd-7e95-432c-8985-899dbac50323)
 
-So it's running in two availability zone one is us-east-1f, two D And then under configuration the secondary zone is us-east-1c
+It's running in two availability zone one is us-east-1f, then under configuration the secondary zone is us-east-1c
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/8444219d-38ed-483b-958f-3d9fef4cab20)
 
-So now let's go back to cloudformation and access our WordPress server cloud formation, go to outputs.
+Now let's verify cloudformation and access our WordPress server  through cloudformation, click outputs tab.
 
-This is the URL, so let's click this"http://wordpr-Appli-5KWqbkyULNi8-199131677.us-east-1.elb.amazonaws.com/wordpres"
+Then click this"http://wordpr-Appli-5KWqbkyULNi8-199131677.us-east-1.elb.amazonaws.com/wordpres" to access Wordpress
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/8cedb5df-8ec6-4e07-9f52-67bbc66ce177)
 
-So this is the site title. Sample WordPress. 
+This is the site title. Sample WordPress. 
 
 ![image](https://github.com/felixdagnon/Deploying-high-available-and-scalable-wordpress-using-cloudformation/assets/91665833/60cd1d9d-cd7d-4b13-b88b-610f5bf951ab)
 
@@ -163,7 +163,7 @@ And remember that the URL is the URL of the application load balancer that is fo
 
 ## 3-Conclusion
 
-So with that being said, there are two ways to implemente our WordPress. Elastic Beanstalk and Infrasture as code.
+In this demo, we show two ways to implemente our WordPress. Elastic Beanstalk and Infrasture as code.
 
 
 
