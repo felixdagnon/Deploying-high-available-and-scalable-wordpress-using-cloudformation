@@ -23,7 +23,7 @@ this web server application using a URL. We need to create an elastic load balan
 
 This url exposed through load balancer need to be secured using https SSL certificates.
 
-For the second option, we can use Elastic Beanstalk.Elastic Beanstalk takes care of auto scaling, managing the web servers, etc..
+For the second option, we can use Elastic Beanstalk. Elastic Beanstalk takes care of auto scaling, managing the web servers, etc..
 
 Amazon RDS MySQL database is used to store all information in the page, links, etc..
 
