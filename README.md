@@ -17,9 +17,9 @@ To make the application highly available we can spin up these EC2 in two differe
 
 We also need to make sure it's scalable. For that we need to create a auto scaling group and attach it to these EC2.
 
-And finally, we need to expose these EC2 because there are multiple EC2, we need to have a way to distribute traffic as well as expose 
+And finally, we need to expose these EC2 because there are multiple EC2, we need to have a way to distribute traffic as well as 
 
-this web server application using a URL.
+expose this web server application using a URL.
 
 We need to create an elastic load balancer and expose URL to the internet so users can access it.
 
